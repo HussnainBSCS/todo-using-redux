@@ -1,0 +1,102 @@
+
+.main-div{
+    /* background-color: rgb(5, 11, 31); */
+    margin-top: 45px;
+    width: 1000px;
+    height: 90vh;
+   
+   display: flex;
+   flex-wrap: wrap;
+    
+}
+.child-div{
+    background-color:#4D8076;
+    width: 100%;
+    
+    border-radius: 10px;
+    
+}
+figcaption{
+    text-align: center;
+    color: rgb(54, 48, 48);
+    font-weight: bolder;
+    background-color: rgb(231, 227, 224);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.addItems{
+    text-align: center;
+    height: 10vh;
+    padding: 30px;
+}
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: 20px;
+  }
+  input[type=checkbox] {
+      height: 30px;
+      width: 30px;
+      color: black;
+      background-color: black;
+      margin-top: 24px;
+      box-shadow: 0 0 3px 3px rgb(214, 183, 183);
+    }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+.add-btn{
+    margin-left: 10px;
+    transition: .3s;
+    font-size: 30px;
+  
+    
+}
+.add-btn:hover{
+    color: green;
+    cursor: pointer;
+    
+}
+.showItems{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.dlt-btn
+{
+    margin-top: 30px;
+    margin-left: -30px;
+    font-size: 24px;
+    transition: .3s;
+    color: green;
+}
+.dlt-btn:hover{
+    color: red;
+    cursor: pointer;
+    
+}
+.eachItem{
+    width: 45%;
+    height: 70px;
+    margin-left: 20px;
+    display: flex;
+    color: black;
+    border-radius: 50px;
+    transition: 0.8s;
+}
+.eachItem h3{
+    background-color: white;
+    color: black;
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    transition: 0.8s;
+}
